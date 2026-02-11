@@ -39,4 +39,4 @@ resources:
           description: Exames Laboratoriais por paciente (total de exames laboratoriais solicitados por paciente internado)."
     scheme: file
     title: Exames solicitados por pacinete, por setor de internação, por unidade da FHEMIG
-title: Exames setorizados
+title: Exames Setorizados
