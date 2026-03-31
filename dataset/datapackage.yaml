@@ -1,4 +1,4 @@
-name: exames-setorizados
+rname: exames-setorizados
 owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
 profile: data-package
 resources:
@@ -16,7 +16,7 @@ resources:
         - name: unidade
           type: string
           description: "Siglas das unidades FHEMIG: CSSFA (Casa de Saúde São Francisco de Assis, em Bambuí); CSSFE (Casa de Saúde Santa Fé, em Três Corações); CSSI (Casa de Saúde Santa Izabel, em Betim); CHPB (Centro Hospitalar Psiquiátrico de Barbacena, em Barbacena); HAC (Hospital Alberto Cavalcanti, em Belo Horizonte); HCM (Hospital Cristiano Machado, em Sabará); HEM (Hospital Eduardo de Menezes, em Belo Horizonte); HIJPII (Hospital Infantil João Paulo II, em Belo Horizonte); HJXXIII (Hospital João XXIII, em Belo Horizonte); HJK (Hospital Júlia Kubitschek, em Belo Horizonte); HMAL (Hospital Maria Amélia Lins, em Belo Horizonte); HRAD (Hospital Regional Antônio Dias, em Patos de Minas); HRBJA (Hospital Regional de Barbacena Dr José Américo, em Barbacena); HRJP (Hospital Regional Dr João Penido, em Juiz de Fora); IRS (Instituto Raul Soares, em Belo Horizonte); MOV (Maternidade Odete Valadares, em Belo Horizonte); MGT (MG Transplantes)."
-        - name: setor
+        - name: setor_centro_custo
           type: string
           description: "Setor (divisão ou subdivisão utilizadas nas unidades hospitalares que migraram para o sistema gestão hospitalat Tasy) e Centro de Custos (divisão contábil refinida nas unidade hospitalares que utilizam o sistema de gestão hospitalar SIGH)."  
         - name: ano
@@ -27,13 +27,13 @@ resources:
           description: "Mês de referência."
         - name: exames_img
           type: integer
-          description: "Exame de Imagem (tecnologias de imagem para realização de diagnósticos)."
+          description: "Exames de Imagem Solicitados (tecnologias de imagem para realização de diagnósticos)."
         - name: exame_img_por_paciente
           type: string
           description: "Exames de imagem por paciente (total de exames de imagem solicitados por paciente internado)."
         - name: exames_lab
           type: integer
-          description: "Exames laboratoriais (conjunto de exames e testes realizados em laboratórios de análises clínicas para realização de diagnóstico ou confirmação de patologia)."
+          description: "Exames laboratoriais Solicitados (conjunto de exames e testes feitos em laboratórios de análises clínicas para realização de diagnóstico ou confirmação de patologia)."
         - name: exame_lab_por_paciente
           type: string
           description: Exames Laboratoriais por paciente (total de exames laboratoriais solicitados por paciente internado)."
